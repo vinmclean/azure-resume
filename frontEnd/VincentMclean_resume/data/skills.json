@@ -1,0 +1,29 @@
+[
+  {
+      
+      "skills":[ "Splunk","AppDynamics", "Linux", "MySQL"]
+  },{
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[ "Java","Python","git","linux","bash"]
+  },
+  {
+      "grouping":"Platform Development & Administration",
+      "skills":[ "IBM BPM/BAW","Atlassian","MySQL"]
+  },
+  {
+      "grouping":"Data Management",
+      "skills":[
+        {"name":"Microsoft SQL Server","icon":"msql_server"},
+        {"name":"Oracle","icon":"database"}
+      ]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Docker"},
+          {"name":"Linux"},
+          {"name": "Azure"}
+      ]
+  }
+  
+]

@@ -1,0 +1,18 @@
+<p>Page Visits: <a id="myCount"></a></p>
+
+<script>
+    fetch('http://localhost:7071/api/HttpTrigger1_visitorCounter')
+    .then(Response => {
+        return Response.json();
+    })
+    .then(data => {
+        console.log(data.count);
+        counter = data.count;
+        document.getElementById("myCount").innerHTML = counter;
+    })
+    .catch(function(error){
+        console.log(error);
+    });
+
+
+</script>
