@@ -103,7 +103,7 @@
 <p>Page Visits: <a id="myCount"></a></p>
 
 <script>
-    fetch('http://localhost:7071/api/HttpTrigger1_visitorCounter')
+    fetch('https://visitorcounterfunc.azurewebsites.net/api/HttpTrigger1_visitorCounter?')
     .then(Response => {
         return Response.json();
     })
