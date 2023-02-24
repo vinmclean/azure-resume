@@ -6,7 +6,8 @@
         return Response.json();
     })
     .then(data => {
-        console.log(data.count);
+        console.log("Processed a request")
+        console.log("Data count:" + data.count);
         counter = data.count;
         document.getElementById("myCount").innerHTML = counter;
     })
